@@ -1,0 +1,78 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-size: 1em;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	background-size: 100%;
+
+}
+#cabecalho{
+	padding: 5px;
+	text-align: right;
+}
+#logo{
+	margin: 10px;
+	padding: 5px;
+	text-align: left;
+}
+#background{
+	background-image: url(imagens/background.jpg);
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-color: black;
+}
+#principal{
+	align-content: center;
+	width: 1300px;	
+	margin: 0 auto;
+	padding: 5px;
+
+}
+.direita1{
+	float: right;
+	width: 300px;
+	text-align: right;
+	margin: 2px;
+
+}
+
+.direita{
+	float: right;
+	padding: 2.5px;
+	margin: 10px;
+	width: 200px;
+	text-align: right;
+	margin: 2px;
+
+}
+.esquerda{
+	padding: 10px;
+	float: left;
+	width: 600px;
+}
+.clear{
+	clear: both;
+}
+.breaknews{
+	opacity: 0.7;
+	background-color: #f5f5f5;
+	color: black;
+}
+.branco{
+	color: white;
+}
+a {
+	text-decoration: none;
+}
+a:linke{
+	color: white;
+}
+a:visited{
+	color: white;
+}
+a:hover{
+	color: white;
+}
